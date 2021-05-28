@@ -1,0 +1,30 @@
+.grid-container {
+	display: grid;
+	padding:16px;
+	grid-gap:16px;
+}
+@media (min-width: 400px) {
+	.grid-container {
+		grid-template-columns:1fr;
+	}
+}
+@media (min-width: 700px) {
+	.grid-container {
+	grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width:1000px) {
+	.grid-container {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media (min-width:1600px) {
+	.grid-container {
+	grid-template-columns:1fr 1fr 1fr 1fr;
+}
+}
+.col {
+		background-color:#0000ff;
+		padding:16px;
+		justify-self: center;
+ }
